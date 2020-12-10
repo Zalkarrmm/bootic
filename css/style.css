@@ -1,0 +1,103 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+}
+#head_ul{
+    list-style: none;
+}
+#head_ul li a , .ashka{
+    font-weight: 500;
+    color: indigo;
+    text-decoration: underline !important;
+}
+.ashka:hover{
+    font-weight: 500;
+    color: indigo;
+    text-decoration: none !important;
+}
+#head_ul li a:hover{
+    text-decoration: none !important;
+}
+#ulli{
+    border-radius: 5px;
+}
+#ulli div a{
+    text-decoration: underline !important;
+}
+#ulli div a:hover{
+    text-decoration: none !important;
+}
+.pishka{
+    font-size: 23px;
+    font-weight: 100;
+}
+.hrr{
+    width: 100%;
+    background-color: grey;
+    height: 1px;
+    margin: 5px 0px;
+}
+#monthes ul li{
+    list-style: none;
+}
+.older{
+    background-color: white;
+    padding: 5px 10px ;
+    color:  rgb(153, 0, 255) ;
+    border: 1px solid rgb(153, 0, 255);
+    border-radius: 30px;
+    outline: none;
+}
+.older:hover{
+    background-color:rgb(153, 0, 255) ;
+    color: white;
+    transition: .5s;
+}
+.newer{
+    outline: none;
+    background-color: white;
+    padding: 5px 10px ;
+    color:  rgb(107, 107, 107) ;
+    border: 1px solid rgb(102, 102, 102);
+    border-radius: 30px;
+}
+.newer:hover{
+    background-color: rgba(170, 170, 170, 0.753);
+    color: black;
+    transition: .5s;
+    outline: none;
+}
+.footerr{
+    background-color: rgb(189, 189, 189);
+}
+@media screen and (max-width:800px){
+    #head_ul{
+        display: none !important;
+    }
+}
+@media screen and (max-width:500px){
+    #colll{
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+    #sec_2{
+        flex-direction: column !important;
+    }
+    #right_side{
+        margin-top: 20px !important;
+    }
+    #stoshki{
+        width: 80% !important;
+    }
+}
+@media screen and (max-width:380px){
+    #headik{
+        flex-direction: column !important;
+        justify-content: center !important;
+        text-align: center;
+        align-items: center !important;
+    }
+}
